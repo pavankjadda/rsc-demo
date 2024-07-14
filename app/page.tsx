@@ -1,7 +1,9 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+import { NextUIProvider } from '@nextui-org/react';
 
-    </main>
-  );
+export default function Home() {
+	return (
+		<NextUIProvider>
+			<main></main>
+		</NextUIProvider>
+	);
 }
